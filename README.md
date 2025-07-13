@@ -14,6 +14,6 @@ https://algolab.github.io/forgenom_summerschool2025/
 
 ### IMPG hacking ideas
 - Can we have a compressed IMPG index? If yes, implement it in IMPG.
-- Compare graphs built with PGGB vs "IMPG partition + POAs/PGGBs + GFALACE" in terms of graph statistics (lengths, # nodes, # edges, # steps), panacus statistics, variants called.
+- Compare graphs built with PGGB vs "IMPG partition + PGGBs/AlfaPang/POAs + GFALACE" in terms of graph statistics (graph lengths, # nodes, # edges, # steps), panacus statistics, variants called.
 - Can we remove entries from the input alignments without losing too much (transitive) connectivity? Potential new `impg reduce` command.
 - Improve how GFALACE manages overlaps between subgraphs: now it just trims one of them. A better way would be to take sequences that overlap, POA, get the POA-graph and lace it to resolve the overlap.
