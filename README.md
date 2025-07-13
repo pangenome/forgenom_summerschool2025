@@ -11,6 +11,7 @@ https://algolab.github.io/forgenom_summerschool2025/
 ### GBAM hacking ideas
 - Can we use AGC (Assembled Genomes Compressor) for read sequencing compression? If yes, start integrating it in GBAM.
 - Search the literature for ad hoc solutions for sequencing data compression, benchmark some of them, and start integrating the winners in GBAM.
+- Compress metadata
 
 ### IMPG hacking ideas
 - Can we have a compressed IMPG index? If yes, implement it in IMPG.
